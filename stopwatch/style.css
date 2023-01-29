@@ -1,0 +1,62 @@
+:root {
+
+    --back: rgb(42, 42, 161);
+}
+
+body {
+  
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(114, 119, 208), rgba(38, 38, 237, 0.658));
+}
+
+.stopwatch {
+    width: 800px;
+    margin:110px auto;
+}
+
+
+h1 {
+    font-family:'Cambria';
+    text-align: center;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    
+}
+
+.time {
+    font-family:'Cambria';
+    margin-top: 20px;
+    text-align: center;
+    font-size:2rem;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    margin-left: 80px;
+}
+button {
+    background: var(--back);
+    font-family: 'Lucida Sans';
+    color: white;
+    border: solid 1px white;
+    font-size: 20px;
+    padding: 20px 60px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    width: 190px;
+    transition:all .5s ease-in-out;
+}
+
+
+button:hover {
+  
+    background: white;
+    color: var(--back);
+
+}
+button:active{
+  
+    
+}
